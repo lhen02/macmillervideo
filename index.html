@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="icon" href="photos/19.jpg">
+    <title>Mac Miller Video Gallary</title>
+</head>
+<body>
+    <header class="clearfix">
+        <img id = "logoimage" src="photos/Mac_Miller_Most_Dope.png">
+        <h2>Mac Miller</h2>
+
+    </header>
+    <nav id = "nav_list">
+        <ul>
+            <li><a href="#vid1">Mac Miller - Dunno (Spotify Sessions)</a></li>
+            <li><a href="#vid2">Mac Miller - Weekend (feat. Miguel)</a></li>
+            <li><a href="#vid3">Mac Miller - Hurt Feelings (Live at The Hotel Café)</a></li>
+        </ul>
+
+        
+    </nav>
+    <main>
+       
+ <section>
+
+        <article id="vid1">
+            
+            <h4> Mac Miller - Dunno (Spotify Sessions) </h4>
+            <div class ="videowrapper">
+        
+                
+         <iframe src="https://www.youtube.com/embed/UfUO3zGhCgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </article>
+    
+        <article id="vid2"> 
+            <h4> Weekend (feat. Miguel </h4>
+            <div class ="videowrapper">
+        
+         <iframe src="https://www.youtube.com/embed/N29-54dhVHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </article>
+
+        <article id="vid3"> 
+            <h4> Mac Miller - Hurt Feelings (Live at The Hotel Café) </h4>
+            <div class ="videowrapper">
+        
+         <iframe src="https://www.youtube.com/embed/tyojkkVbyzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+         </article>
+         
+    </section>
+    <div><button onclick="topFunction()" id="cornerbtn" title="Go to top">Return To Top</button></div>
+
+    <script>
+        // When the user scrolls down 800px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+     
+         function scrollFunction() {
+           if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+             document.getElementById("cornerbtn").style.display = "block";
+           } else {
+             document.getElementById("cornerbtn").style.display = "none";
+           }
+         }
+     
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+     </script>
+
+    </main>
+    <footer>
+        <p>&copy; 2022 Liam Henley</p>
+    </footer>
+</body>
+</html>
+
